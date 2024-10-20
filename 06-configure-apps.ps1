@@ -1,0 +1,1 @@
+Copy-Item -Path .\resources\terminal-settings.json C:\Users\$Env:UserName\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
