@@ -1,22 +1,44 @@
 # uninstalls more apps, this time using winget
 
 $applicationList = @(
-    @{name = "Microsoft.OneDrive"},
-    @{name = "Microsoft.Teams"},
-    @{name = "Microsoft.DevHome"},
-    @{name = "Microsoft.Todos_8wekyb3d8bbwe"},
-    @{name = "Microsoft.Windows.Photos_8wekyb3d8bbwe"},
+    @{name = "Microsoft OneDrive"},
+    @{name = "Microsoft Teams"},
+    @{name = "Microsoft Photos"},
+    @{name = "Xbox TCUI"},
+    @{name = "Windows Alarms & Clock"},
+    @{name = "Microsoft Copilot"},
+    @{name = "Mail and Calendar"},
+    @{name = "Your Phone"},
+    @{name = "Xbox Game Speech Window"},
+    @{name = "Xbox Identity Provider"},
+    @{name = "Xbox Game Bar"},
+    @{name = "Xbox Game Bar Plugin"},
+    @{name = "Xbox"},
+    @{name = "Microsoft Pay"},
+    @{name = "OneNote"},
+    @{name = "Paint 3D"},
+    @{name = "Cortana"},
+    @{name = "Movies & TV"},
+    @{name = "Groove Music"},
+    @{name = "Windows Voice Recorder"},
+    @{name = "Windows Maps"},
+    @{name = "Skype"},
+    @{name = "Microsoft People"},
+    @{name = "Mixed Reality Portal"},
+    @{name = "Office"},
+    @{name = "Microsoft Solitaire Collection"},
+    @{name = "3D Viewer"},
+    @{name = "MSN Weather"}
+
+    # todo what is the actual name for these
+    @{name = "Microsoft DevHome"},
+    @{name = "Microsoft To Dos"},
     @{name = "9NBLGGH5R558"}, # microsoft to do
-    @{name = "Microsoft.Xbox.TCUI_8wekyb3d8bbwe"},
-    @{name = "Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe"},
-    @{name = "Microsoft.YourPhone_8wekyb3d8bbwe"},
-    @{name = "Microsoft.WindowsAlarms_8wekyb3d8bbwe"},
-    @{name = "Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe"},
-    @{name = "Microsoft.OutlookForWindows_8wekyb3d8bbwe"},
-    @{name = "Microsoft.GamingApp_8wekyb3d8bbwe"}, # xbox
-    @{name = "Microsoft.Copilot_8wekyb3d8bbwe"},
-    @{name = "Microsoft.BingSearch_8wekyb3d8bbwe"},
-    @{name = "Clipchamp.Clipchamp_yxz26nhyzhsrt"}
+    @{name = "Microsoft.PowerAutomateDesktop"},
+    @{name = "Microsoft.OutlookForWindows"},
+    @{name = "Microsoft.GamingApp"}, # xbox
+    @{name = "Microsoft.BingSearch"},
+    @{name = "Clipchamp"}
 );
 
 Foreach ($app in $applicationList) {
